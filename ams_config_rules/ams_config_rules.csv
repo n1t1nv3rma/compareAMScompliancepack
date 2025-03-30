@@ -1,0 +1,96 @@
+﻿ams-nist-cis-guardduty-enabled-centralized,GUARDDUTY_ENABLED_CENTRALIZED,https://docs.aws.amazon.com/config/latest/developerguide/guardduty-enabled-centralized.html,GuardDuty
+ams-nist-cis-vpc-flow-logs-enabled,VPC_FLOW_LOGS_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/vpc-flow-logs-enabled.html,VPC
+ams-eks-secrets-encrypted,EKS_SECRETS_ENCRYPTED,https://docs.aws.amazon.com/config/latest/developerguide/eks-secrets-encrypted.html,EKS
+ams-eks-endpoint-no-public-access,EKS_ENDPOINT_NO_PUBLIC_ACCESS,https://docs.aws.amazon.com/config/latest/developerguide/eks-endpoint-no-public-access.html,EKS
+ams-nist-cis-vpc-default-security-group-closed,VPC_DEFAULT_SECURITY_GROUP_CLOSED,https://docs.aws.amazon.com/config/latest/developerguide/vpc-default-security-group-closed.html,VPC
+ams-nist-cis-iam-password-policy,IAM_PASSWORD_POLICY,https://docs.aws.amazon.com/config/latest/developerguide/iam-password-policy.html,IAM
+ams-nist-cis-iam-root-access-key-check,IAM_ROOT_ACCESS_KEY_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/iam-root-access-key-check.html,IAM
+ams-nist-cis-iam-user-mfa-enabled,IAM_USER_MFA_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/iam-user-mfa-enabled.html,IAM
+ams-nist-cis-restricted-ssh,INCOMING_SSH_DISABLED,https://docs.aws.amazon.com/config/latest/developerguide/restricted-ssh.html,Security Groups
+ams-nist-cis-restricted-common-ports,RESTRICTED_INCOMING_TRAFFIC,https://docs.aws.amazon.com/config/latest/developerguide/restricted-common-ports.html,Security Groups
+ams-nist-cis-s3-account-level-public-access-blocks,S3_ACCOUNT_LEVEL_PUBLIC_ACCESS_BLOCKS,https://docs.aws.amazon.com/config/latest/developerguide/s3-account-level-public-access-blocks.html,S3
+ams-nist-cis-s3-bucket-public-read-prohibited,S3_BUCKET_PUBLIC_READ_PROHIBITED,https://docs.aws.amazon.com/config/latest/developerguide/s3-bucket-public-read-prohibited.html,S3
+ams-nist-cis-s3-bucket-public-write-prohibited,S3_BUCKET_PUBLIC_WRITE_PROHIBITED,https://docs.aws.amazon.com/config/latest/developerguide/s3-bucket-public-write-prohibited.html,S3
+ams-nist-cis-s3-bucket-server-side-encryption-enabled,S3_BUCKET_SERVER_SIDE_ENCRYPTION_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/s3-bucket-server-side-encryption-enabled.html,S3
+ams-nist-cis-securityhub-enabled,SECURITYHUB_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/securityhub-enabled.html,Security Hub
+ams-nist-cis-ec2-instance-managed-by-systems-manager,EC2_INSTANCE_MANAGED_BY_SSM,https://docs.aws.amazon.com/config/latest/developerguide/ec2-instance-managed-by-systems-manager.html,EC2
+ams-nist-cis-cloudtrail-enabled,CLOUD_TRAIL_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/cloudtrail-enabled.html,CloudTrail
+ams-nist-cis-access-keys-rotated,ACCESS_KEYS_ROTATED,https://docs.aws.amazon.com/config/latest/developerguide/access-keys-rotated.html,IAM
+ams-nist-cis-acm-certificate-expiration-check,ACM_CERTIFICATE_EXPIRATION_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/acm-certificate-expiration-check.html,Certificate Manager
+ams-nist-cis-alb-http-to-https-redirection-check,ALB_HTTP_TO_HTTPS_REDIRECTION_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/alb-http-to-https-redirection-check.html,ALB
+ams-nist-cis-api-gw-cache-enabled-and-encrypted,API_GW_CACHE_ENABLED_AND_ENCRYPTED,https://docs.aws.amazon.com/config/latest/developerguide/api-gw-cache-enabled-and-encrypted.html,API Gateway
+ams-nist-cis-api-gw-execution-logging-enabled,API_GW_EXECUTION_LOGGING_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/api-gw-execution-logging-enabled.html,API Gateway
+ams-nist-autoscaling-group-elb-healthcheck-required,AUTOSCALING_GROUP_ELB_HEALTHCHECK_REQUIRED,https://docs.aws.amazon.com/config/latest/developerguide/autoscaling-group-elb-healthcheck-required.html,ELB
+ams-nist-cis-cloud-trail-cloud-watch-logs-enabled,CLOUD_TRAIL_CLOUD_WATCH_LOGS_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/cloud-trail-cloud-watch-logs-enabled.html,CloudTrail
+ams-nist-cis-cloud-trail-encryption-enabled,CLOUD_TRAIL_ENCRYPTION_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/cloud-trail-encryption-enabled.html,CloudTrail
+ams-nist-cis-cloud-trail-log-file-validation-enabled,CLOUD_TRAIL_LOG_FILE_VALIDATION_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/cloud-trail-log-file-validation-enabled.html,CloudTrail
+ams-nist-cis-cloudtrail-s3-dataevents-enabled,CLOUDTRAIL_S3_DATAEVENTS_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/cloudtrail-s3-dataevents-enabled.html,CloudTrail
+ams-nist-cis-cloudwatch-alarm-action-check,CLOUDWATCH_ALARM_ACTION_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/cloudwatch-alarm-action-check.html,CloudWatch
+ams-nist-cis-cloudwatch-log-group-encrypted,CLOUDWATCH_LOG_GROUP_ENCRYPTED,https://docs.aws.amazon.com/config/latest/developerguide/cloudwatch-log-group-encrypted.html,CloudWatch
+ams-nist-cis-codebuild-project-envvar-awscred-check,CODEBUILD_PROJECT_ENVVAR_AWSCRED_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/codebuild-project-envvar-awscred-check.html,CodeBuild
+ams-nist-cis-codebuild-project-source-repo-url-check,CODEBUILD_PROJECT_SOURCE_REPO_URL_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/codebuild-project-source-repo-url-check.html,CodeBuild
+ams-nist-cis-db-instance-backup-enabled,DB_INSTANCE_BACKUP_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/db-instance-backup-enabled.html,RDS
+ams-nist-cis-dms-replication-not-public,DMS_REPLICATION_NOT_PUBLIC,https://docs.aws.amazon.com/config/latest/developerguide/dms-replication-not-public.html,DMS
+ams-nist-dynamodb-autoscaling-enabled,DYNAMODB_AUTOSCALING_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/dynamodb-autoscaling-enabled.html,DynamoDB
+ams-nist-cis-dynamodb-pitr-enabled,DYNAMODB_PITR_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/dynamodb-pitr-enabled.html,DynamoDB
+ams-nist-dynamodb-throughput-limit-check,DYNAMODB_THROUGHPUT_LIMIT_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/dynamodb-throughput-limit-check.html,DynamoDB
+ams-nist-ebs-optimized-instance,EBS_OPTIMIZED_INSTANCE,https://docs.aws.amazon.com/config/latest/developerguide/ebs-optimized-instance.html,EBS
+ams-nist-cis-ebs-snapshot-public-restorable-check,EBS_SNAPSHOT_PUBLIC_RESTORABLE_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/ebs-snapshot-public-restorable-check.html,EBS
+ams-nist-ec2-instance-detailed-monitoring-enabled,EC2_INSTANCE_DETAILED_MONITORING_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/ec2-instance-detailed-monitoring-enabled.html,EC2
+ams-nist-cis-ec2-instance-no-public-ip,EC2_INSTANCE_NO_PUBLIC_IP,https://docs.aws.amazon.com/config/latest/developerguide/ec2-instance-no-public-ip.html,EC2
+ams-nist-cis-ec2-managedinstance-association-compliance-status-check,EC2_MANAGEDINSTANCE_ASSOCIATION_COMPLIANCE_STATUS_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/ec2-managedinstance-association-compliance-status-check.html,EC2
+ams-nist-cis-ec2-managedinstance-patch-compliance-status-check,EC2_MANAGEDINSTANCE_PATCH_COMPLIANCE_STATUS_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/ec2-managedinstance-patch-compliance-status-check.html,EC2
+ams-nist-cis-ec2-stopped-instance,EC2_STOPPED_INSTANCE,https://docs.aws.amazon.com/config/latest/developerguide/ec2-stopped-instance.html,EC2
+ams-nist-cis-ec2-volume-inuse-check,EC2_VOLUME_INUSE_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/ec2-volume-inuse-check.html,EC2
+ams-nist-cis-efs-encrypted-check,EFS_ENCRYPTED_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/efs-encrypted-check.html,EFS
+ams-nist-cis-eip-attached,EIP_ATTACHED,https://docs.aws.amazon.com/config/latest/developerguide/eip-attached.html,EC2
+ams-nist-cis-elasticache-redis-cluster-automatic-backup-check,ELASTICACHE_REDIS_CLUSTER_AUTOMATIC_BACKUP_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/elasticache-redis-cluster-automatic-backup-check.html,ElastiCache
+ams-nist-cis-elasticsearch-encrypted-at-rest,ELASTICSEARCH_ENCRYPTED_AT_REST,https://docs.aws.amazon.com/config/latest/developerguide/elasticsearch-encrypted-at-rest.html,OpenSearch
+ams-nist-cis-elasticsearch-in-vpc-only,ELASTICSEARCH_IN_VPC_ONLY,https://docs.aws.amazon.com/config/latest/developerguide/elasticsearch-in-vpc-only.html,OpenSearch
+ams-nist-cis-elb-acm-certificate-required,ELB_ACM_CERTIFICATE_REQUIRED,https://docs.aws.amazon.com/config/latest/developerguide/elb-acm-certificate-required.html,Certificate Manager
+ams-nist-elb-deletion-protection-enabled,ELB_DELETION_PROTECTION_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/elb-deletion-protection-enabled.html,ELB
+ams-nist-cis-elb-logging-enabled,ELB_LOGGING_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/elb-logging-enabled.html,ELB
+ams-nist-cis-emr-kerberos-enabled,EMR_KERBEROS_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/emr-kerberos-enabled.html,EMR
+ams-nist-cis-emr-master-no-public-ip,EMR_MASTER_NO_PUBLIC_IP,https://docs.aws.amazon.com/config/latest/developerguide/emr-master-no-public-ip.html,EMR
+ams-nist-cis-encrypted-volumes,ENCRYPTED_VOLUMES,https://docs.aws.amazon.com/config/latest/developerguide/encrypted-volumes.html,EBS
+ams-nist-cis-guardduty-non-archived-findings,GUARDDUTY_NON_ARCHIVED_FINDINGS,https://docs.aws.amazon.com/config/latest/developerguide/guardduty-non-archived-findings.html,GuardDuty
+ams-nist-iam-group-has-users-check,IAM_GROUP_HAS_USERS_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/iam-group-has-users-check.html,IAM
+ams-nist-cis-iam-policy-no-statements-with-admin-access,IAM_POLICY_NO_STATEMENTS_WITH_ADMIN_ACCESS,https://docs.aws.amazon.com/config/latest/developerguide/iam-policy-no-statements-with-admin-access.html,IAM
+ams-nist-cis-iam-user-group-membership-check,IAM_USER_GROUP_MEMBERSHIP_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/iam-user-group-membership-check.html,IAM
+ams-nist-cis-iam-user-no-policies-check,IAM_USER_NO_POLICIES_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/iam-user-no-policies-check.html,IAM
+ams-nist-cis-iam-user-unused-credentials-check,IAM_USER_UNUSED_CREDENTIALS_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/iam-user-unused-credentials-check.html,IAM
+ams-nist-cis-ec2-instances-in-vpc,INSTANCES_IN_VPC,https://docs.aws.amazon.com/config/latest/developerguide/ec2-instances-in-vpc.html,EC2
+ams-nist-cis-internet-gateway-authorized-vpc-only,INTERNET_GATEWAY_AUTHORIZED_VPC_ONLY,https://docs.aws.amazon.com/config/latest/developerguide/internet-gateway-authorized-vpc-only.html,Internet Gateway
+ams-nist-cis-kms-cmk-not-scheduled-for-deletion,KMS_CMK_NOT_SCHEDULED_FOR_DELETION,https://docs.aws.amazon.com/config/latest/developerguide/kms-cmk-not-scheduled-for-deletion.html,KMS
+ams-nist-lambda-concurrency-check,LAMBDA_CONCURRENCY_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/lambda-concurrency-check.html,Lambda
+ams-nist-lambda-dlq-check,LAMBDA_DLQ_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/lambda-dlq-check.html,Lambda
+ams-nist-cis-lambda-function-public-access-prohibited,LAMBDA_FUNCTION_PUBLIC_ACCESS_PROHIBITED,https://docs.aws.amazon.com/config/latest/developerguide/lambda-function-public-access-prohibited.html,Lambda
+ams-nist-cis-lambda-inside-vpc,LAMBDA_INSIDE_VPC,https://docs.aws.amazon.com/config/latest/developerguide/lambda-inside-vpc.html,Lambda
+ams-nist-cis-mfa-enabled-for-iam-console-access,MFA_ENABLED_FOR_IAM_CONSOLE_ACCESS,https://docs.aws.amazon.com/config/latest/developerguide/mfa-enabled-for-iam-console-access.html,IAM
+ams-nist-cis-multi-region-cloudtrail-enabled,MULTI_REGION_CLOUD_TRAIL_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/multi-region-cloudtrail-enabled.html,CloudTrail
+ams-nist-rds-enhanced-monitoring-enabled,RDS_ENHANCED_MONITORING_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/rds-enhanced-monitoring-enabled.html,RDS
+ams-nist-cis-rds-instance-public-access-check,RDS_INSTANCE_PUBLIC_ACCESS_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/rds-instance-public-access-check.html,RDS
+ams-nist-rds-multi-az-support,RDS_MULTI_AZ_SUPPORT,https://docs.aws.amazon.com/config/latest/developerguide/rds-multi-az-support.html,RDS
+ams-nist-cis-rds-snapshots-public-prohibited,RDS_SNAPSHOTS_PUBLIC_PROHIBITED,https://docs.aws.amazon.com/config/latest/developerguide/rds-snapshots-public-prohibited.html,RDS
+ams-nist-cis-rds-storage-encrypted,RDS_STORAGE_ENCRYPTED,https://docs.aws.amazon.com/config/latest/developerguide/rds-storage-encrypted.html,RDS
+ams-nist-cis-redshift-cluster-configuration-check,REDSHIFT_CLUSTER_CONFIGURATION_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/redshift-cluster-configuration-check.html,RedShift
+ams-nist-cis-redshift-cluster-public-access-check,REDSHIFT_CLUSTER_PUBLIC_ACCESS_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/redshift-cluster-public-access-check.html,RedShift
+ams-nist-cis-redshift-require-tls-ssl,REDSHIFT_REQUIRE_TLS_SSL,https://docs.aws.amazon.com/config/latest/developerguide/redshift-require-tls-ssl.html,RedShift
+ams-nist-cis-root-account-hardware-mfa-enabled,ROOT_ACCOUNT_HARDWARE_MFA_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/root-account-hardware-mfa-enabled.html,IAM
+ams-nist-cis-root-account-mfa-enabled,ROOT_ACCOUNT_MFA_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/root-account-mfa-enabled.html,IAM
+ams-nist-cis-s3-bucket-default-lock-enabled,S3_BUCKET_DEFAULT_LOCK_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/s3-bucket-default-lock-enabled.html,S3
+ams-nist-cis-s3-bucket-logging-enabled,S3_BUCKET_LOGGING_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/s3-bucket-logging-enabled.html,S3
+ams-nist-cis-s3-bucket-replication-enabled,S3_BUCKET_REPLICATION_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/s3-bucket-replication-enabled.html,S3
+ams-nist-cis-s3-bucket-ssl-requests-only,S3_BUCKET_SSL_REQUESTS_ONLY,https://docs.aws.amazon.com/config/latest/developerguide/s3-bucket-ssl-requests-only.html,S3
+ams-nist-cis-s3-bucket-versioning-enabled,S3_BUCKET_VERSIONING_ENABLED,https://docs.aws.amazon.com/config/latest/developerguide/s3-bucket-versioning-enabled.html,S3
+ams-nist-cis-sagemaker-endpoint-configuration-kms-key-configured,SAGEMAKER_ENDPOINT_CONFIGURATION_KMS_KEY_CONFIGURED,https://docs.aws.amazon.com/config/latest/developerguide/sagemaker-endpoint-configuration-kms-key-configured.html,SageMaker
+ams-nist-cis-sagemaker-notebook-instance-kms-key-configured,SAGEMAKER_NOTEBOOK_INSTANCE_KMS_KEY_CONFIGURED,https://docs.aws.amazon.com/config/latest/developerguide/sagemaker-notebook-instance-kms-key-configured.html,SageMaker
+ams-nist-cis-sagemaker-notebook-no-direct-internet-access,SAGEMAKER_NOTEBOOK_NO_DIRECT_INTERNET_ACCESS,https://docs.aws.amazon.com/config/latest/developerguide/sagemaker-notebook-no-direct-internet-access.html,SageMaker
+ams-nist-cis-secretsmanager-rotation-enabled-check,SECRETSMANAGER_ROTATION_ENABLED_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/secretsmanager-rotation-enabled-check.html,Secrets Manager
+ams-nist-cis-secretsmanager-scheduled-rotation-success-check,SECRETSMANAGER_SCHEDULED_ROTATION_SUCCESS_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/secretsmanager-scheduled-rotation-success-check.html,Secrets Manager
+ams-nist-cis-sns-encrypted-kms,SNS_ENCRYPTED_KMS,https://docs.aws.amazon.com/config/latest/developerguide/sns-encrypted-kms.html,SNS
+ams-nist-cis-vpc-sg-open-only-to-authorized-ports,VPC_SG_OPEN_ONLY_TO_AUTHORIZED_PORTS,https://docs.aws.amazon.com/config/latest/developerguide/vpc-sg-open-only-to-authorized-ports.html,VPC
+ams-nist-vpc-vpn-2-tunnels-up,VPC_VPN_2_TUNNELS_UP,https://docs.aws.amazon.com/config/latest/developerguide/vpc-vpn-2-tunnels-up.html,VPC
+ams-cis-ec2-ebs-encryption-by-default,EC2_EBS_ENCRYPTION_BY_DEFAULT,https://docs.aws.amazon.com/config/latest/developerguide/ec2-ebs-encryption-by-default.html,EC2
+ams-cis-rds-snapshot-encrypted,RDS_SNAPSHOT_ENCRYPTED,https://docs.aws.amazon.com/config/latest/developerguide/rds-snapshot-encrypted.html,RDS
+ams-cis-redshift-cluster-maintenancesettings-check,REDSHIFT_CLUSTER_MAINTENANCESETTINGS_CHECK,https://docs.aws.amazon.com/config/latest/developerguide/redshift-cluster-maintenancesettings-check.html,RedShift
